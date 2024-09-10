@@ -341,10 +341,9 @@ footer p {
  
   
 
-@media screen and (max-width:520px){
+  @media screen and (max-width:520px){
     .menu-btn{
         display: block;
-        
     }
     .nav-list{
         flex-direction: column;
@@ -359,15 +358,12 @@ footer p {
     }
     .nav-list.active {
         right: 0;
-
     }
     .nav-list li :not(:last-child) {
         text-align: left;
         width: 100%;
         padding: 10px 30px;
-        border-bottom: 1px soild var(--white);
-
-
+        border-bottom: 1px solid var(--white);
     }
     #about-us .container{
         flex-direction: column;
@@ -377,5 +373,4 @@ footer p {
         flex-direction: column;
         gap: 16px;
     }
-    
 }
