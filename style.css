@@ -341,36 +341,42 @@ footer p {
  
   
 
-  @media screen and (max-width:520px){
-    .menu-btn{
-        display: block;
+  @media screen and (max-width: 520px) {
+    .menu-btn {
+      display: block;
     }
-    .nav-list{
-        flex-direction: column;
-        background: gray;
-        position: absolute;
-        top: 0;
-        right: -900px;
-        width: 80%;
-        height: 100vh;
-        padding-top: 80px;
-        transition: all 0.3s ease;
+    
+    .nav-list {
+      flex-direction: column;
+      background: gray;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100vh;
+      padding-top: 80px;
+      transition: all 0.3s ease;
     }
+  
     .nav-list.active {
-        right: 0;
+      left: 0;
     }
-    .nav-list li :not(:last-child) {
-        text-align: left;
-        width: 100%;
-        padding: 10px 30px;
-        border-bottom: 1px solid var(--white);
+  
+    .nav-list li:not(:last-child) {
+      text-align: left;
+      width: 100%;
+      padding: 10px 30px;
+      border-bottom: 1px solid var(--white);
     }
-    #about-us .container{
-        flex-direction: column;
-        gap: 30px;
+  
+    #about-us .container {
+      flex-direction: column;
+      gap: 30px;
     }
-    footer .container{
-        flex-direction: column;
-        gap: 16px;
+  
+    footer .container {
+      flex-direction: column;
+      gap: 16px;
     }
-}
+  }
+  
