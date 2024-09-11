@@ -37,14 +37,14 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
-    color:#f5f5dc;
+    color:#070707;
   }
   
   .home p {
     font-family: 'DM Sans', sans-serif;
     line-height: 1.6;
     margin: 0 0 20px;
-    color: #f5f5dc;
+    color: #080808;
   }
   
   
@@ -72,7 +72,7 @@ body {
   
   
   body {
-    background-image: url("/Images/newback1.png");
+    background-image: url();
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -86,7 +86,7 @@ body {
     }
 
     body {
-      background-image: url("/Images/newback1.png");
+      background-image: url("");
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
