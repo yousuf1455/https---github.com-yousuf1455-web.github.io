@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
     color: #333;
@@ -24,12 +24,12 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   }
   
-  /* Support Options */
+  
   ul li {
     margin-bottom: 20px;
   }
   
-  /* Email Link */
+
   ul li a {
     display: inline-block;
     padding: 10px 20px;
@@ -46,7 +46,7 @@ body {
     transform: scale(1.05);
   }
   
-  /* Social Icons */
+  
   ul.social-icons {
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@ body {
     transform: scale(1.2);
   }
   
-  /* WhatsApp Link */
+  
   ul li a.whatsapp {
     background-color: #25d366;
   }
@@ -72,7 +72,7 @@ body {
     background-color: #1da859;
   }
   
-  /* Section Footer */
+  
   .section-footer {
     margin-top: 40px;
     text-align: center;
@@ -80,12 +80,12 @@ body {
     color: #555;
   }
   strong {
-    color: rgb(0, 145, 255);
+    color: rgb(0, 166, 255);
     font-weight: bold;
   }
 
   
-  /* Media Queries */
+  
   @media screen and (max-width: 600px) {
     main {
       padding: 15px;
@@ -101,8 +101,9 @@ body {
     }
   
     ul li a {
-      padding: 8px 15px;
-    }
+        padding: 18px 30px;
+      }
+      
   
     ul.social-icons img {
       width: 25px;

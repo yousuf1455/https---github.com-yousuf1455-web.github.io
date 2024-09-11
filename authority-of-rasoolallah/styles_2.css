@@ -55,6 +55,15 @@ body {
     justify-content: center;
 }
 
+  .content img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+
+
   
  
   @media screen and (max-width: 768px) {
@@ -87,5 +96,15 @@ body {
     .arabic-text {
       font-size: 18px;
     }
+ 
+
+      .content img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+ 
+
   }
   
