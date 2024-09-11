@@ -163,14 +163,12 @@
     </footer>
 
     <script>
-      const navBtn = document.querySelector(".menu-open-btn");
+      const navBtn = document.querySelector(".menu-btn");
       const navlist = document.querySelector(".nav-list");
 
       navBtn.addEventListener("click", function () {
         navlist.classList.toggle("active");
-        navBtn.style.display = navlist.classList.contains("active")
-          ? "none"
-          : "block";
+        navBtn.style.display = navlist.classList.contains("active");
       });
     </script>
 
