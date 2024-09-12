@@ -27,14 +27,14 @@ body {
     line-height: 1.6;
     margin-bottom: 24px;
   }
-  
   .arabic-text {
     font-family: "Noto Naskh Arabic", sans-serif;
     font-size: 20px;
     text-align: right;
-    font-style: italic;
-    margin-bottom: 24px;
+    font-style: normal;
+    line-height: 1.6;
   }
+  
 
   .content {
     text-align: center;
