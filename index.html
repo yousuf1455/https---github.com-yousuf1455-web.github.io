@@ -164,11 +164,23 @@
 
     <script>
       const navBtn = document.querySelector(".menu-btn");
-      const navlist = document.querySelector(".nav-list");
+      const navList = document.querySelector(".nav-list");
 
       navBtn.addEventListener("click", function () {
-        navlist.classList.toggle("active");
-        navBtn.style.display = navlist.classList.contains("active");
+        navList.classList.toggle("active");
+        navBtn.style.display = navList.classList.contains("active");
+      });
+
+      document.addEventListener("click", function (event) {
+        if (event.target !== navBtn && !navList.contains(event.target)) {
+          navList.classList.remove("active");
+          navBtn.style.display = navList.classList.contains("active");
+        }
+      });
+
+      window.addEventListener("popstate", function () {
+        navList.classList.remove("active");
+        navBtn.style.display = navList.classList.contains("active");
       });
     </script>
 
