@@ -71,7 +71,7 @@ body {
     color: #555;
   }
   
-  /* Media Queries */
+  
   @media screen and (max-width: 600px) {
     .support-us {
       padding: 15px;
